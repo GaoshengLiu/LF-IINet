@@ -6,7 +6,7 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 ### Dependencies and Installation
 * Ubuntu 18.04
 * Python 3.6
-* Pyorch 1.3.1+torchvision0.4.2+cuda92
+* Pyorch 1.3.1 + torchvision 0.4.2 + cuda 92
 * Matlab
 ### Prepare Training and Test Data
 * To generate the training data, please first download the five datasets and run:
@@ -30,21 +30,23 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 ## Citiation
 If you find this work helpful, please consider citing the following papers:<br> 
 ```matlab
-'@article{liu2021intra,
+@article{liu2021intra,
   title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},
   author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},
   journal={IEEE Transactions on Multimedia},
   year={2021},
   publisher={IEEE}
-}'
+}
 ```
-'@article{liu2021intra,<br> 
-  title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},<br> 
-  author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},<br> 
-  journal={IEEE Transactions on Multimedia},<br> 
-  year={2021},<br> 
-  publisher={IEEE}<br> 
-}'\<br> 
+```matlab
+@article{liu2021intra,
+  title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},
+  author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},
+  journal={IEEE Transactions on Multimedia},
+  year={2021},
+  publisher={IEEE}
+}
+```
 ## Acknowledgement
 Our work and implementations are inspired and based on the following projects: <br> 
 [LF-DFnet](https://github.com/YingqianWang/LF-DFnet)<br> 
