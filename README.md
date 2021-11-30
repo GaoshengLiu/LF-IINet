@@ -1,9 +1,11 @@
-#Intra-Inter View Interaction Network for Light Field Image Super-Resolution
+Intra-Inter View Interaction Network for Light Field Image Super-Resolution
 ===
 This repository contains official pytorch implementation of Intra-Inter View Interaction Network for Light Field Image Super-Resolution in TMM 2021, by Gaosheng Liu, Huanjing Yue, Jiamin Wu, and Jingyu Yang.[LF-IINet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9599365)
-##Dataset
+Dataset
+---
 We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286855), including EPFL, HCInew, HCIold, INRIA and STFgantry datasets for training and testing. Please download the dataset in the official repository of [LF-DFnet](https://github.com/YingqianWang/LF-DFnet).
-##Code
+Code
+---
 ###Dependencies and Installation
 * Ubuntu 18.04
 * Python 3.6
