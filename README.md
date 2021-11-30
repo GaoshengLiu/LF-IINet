@@ -22,11 +22,11 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 ### Test
 * Run:
   ```python
-  'python test.py'
+  python test.py
 ### Visual Results
 * to merge the Y, Cb, Cr channels, please run:
   ```matlab
-  'GenerateResultImages.m'
+  GenerateResultImages.m
 ## Citiation
 If you find this work helpful, please consider citing the following papers:<br> 
 ```matlab
