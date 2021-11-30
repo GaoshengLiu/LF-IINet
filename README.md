@@ -27,9 +27,9 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 * to merge the Y, Cb, Cr channels, please run:
   ```matlab
   GenerateResultImages.m
-## Citiation
+## Citation
 If you find this work helpful, please consider citing the following papers:<br> 
-```matlab
+```python
 @article{liu2021intra,
   title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},
   author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},
@@ -38,7 +38,7 @@ If you find this work helpful, please consider citing the following papers:<br>
   publisher={IEEE}
 }
 ```
-```matlab
+```python
 @article{liu2021intra,
   title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},
   author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},
