@@ -29,13 +29,15 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
   'GenerateResultImages.m'
 ## Citiation
 If you find this work helpful, please consider citing the following papers:<br> 
-'@article{liu2021intra,<br> 
-  title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},<br> 
-  author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},<br> 
-  journal={IEEE Transactions on Multimedia},<br> 
-  year={2021},<br> 
-  publisher={IEEE}<br> 
-}'\<br> 
+```matlab
+'@article{liu2021intra,
+  title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},
+  author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},
+  journal={IEEE Transactions on Multimedia},
+  year={2021},
+  publisher={IEEE}
+}'
+```
 '@article{liu2021intra,<br> 
   title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},<br> 
   author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},<br> 
@@ -47,5 +49,5 @@ If you find this work helpful, please consider citing the following papers:<br>
 Our work and implementations are inspired and based on the following projects: <br> 
 [LF-DFnet](https://github.com/YingqianWang/LF-DFnet)<br> 
 [LF-InterNet](https://github.com/YingqianWang/LF-InterNet)<br> 
-We sincerely thank the authors for sharing their code and excellent research work!
+We sincerely thank the authors for sharing their code and amazing research work!
 
