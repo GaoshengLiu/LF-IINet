@@ -39,12 +39,13 @@ If you find this work helpful, please consider citing the following papers:<br>
 }
 ```
 ```Citation
-@article{liu2021intra,
-  title={Intra-Inter View Interaction Network for Light Field Image Super-Resolution},
-  author={Liu, Gaosheng and Yue, Huanjing and Wu, Jiamin and Yang, Jingyu},
-  journal={IEEE Transactions on Multimedia},
-  year={2021},
-  publisher={IEEE}
+@article{LF-DFnet,
+  author  = {Wang, Yingqian and Yang, Jungang and Wang, Longguang and Ying, Xinyi and Wu, Tianhao and An, Wei and Guo, Yulan},
+  title   = {Light Field Image Super-Resolution Using Deformable Convolution},
+  journal = {IEEE Transactions on Image Processing},
+  volume  = {30),
+  pages   = {1057-1071},
+  year    = {2021},
 }
 ```
 ## Acknowledgement
