@@ -5,7 +5,7 @@ import torch.backends.cudnn as cudnn
 from tqdm import tqdm
 from utils import *
 
-from model_light import Net
+from model_IINet import Net
 
 # Settings
 def parse_args():
@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument("--angRes", type=int, default=5, help="angular resolution")
     parser.add_argument("--upscale_factor", type=int, default=2, help="upscale factor")
-    parser.add_argument('--model_name', type=str, default='DFnet')
+    parser.add_argument('--model_name', type=str, default='IINet')
     parser.add_argument('--trainset_dir', type=str, default='../Data/TrainingData_2xSR_5x5')
     parser.add_argument('--testset_dir', type=str, default='../Data/TestData_2xSR_5x5/')
 
@@ -27,7 +27,7 @@ def parse_args():
     parser.add_argument("--stride", type=int, default=32, help="stride for patch cropping")
 
     parser.add_argument('--load_pretrain', type=bool, default=False)
-    parser.add_argument('--model_path', type=str, default='../checkpoint/DFnet_2xSR_5x5_epoch_35.pth.tar')
+    parser.add_argument('--model_path', type=str, default='../checkpoint/IINet_2xSR_5x5_epoch_35.pth.tar')
 
     return parser.parse_args()
 
@@ -62,8 +62,6 @@ def train(cfg, train_loader, test_Names, test_loaders):
         for idx_iter, (data, label) in tqdm(enumerate(train_loader), total=len(train_loader)):
             data, label = Variable(data).to(cfg.device), Variable(label).to(cfg.device)
             out = net(data)
-            #print(out.shape)
-            #print(label.shape)
             loss = criterion_Loss(out, label)
             optimizer.zero_grad()
             loss.backward()
