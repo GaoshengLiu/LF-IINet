@@ -15,7 +15,8 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
   'GenerateTestData.m'
 ### Train
 * Run:
-  'python train.py'
+  ```python
+  'python train.py' //python
 ### Test
 * Run:
   'python test.py'
