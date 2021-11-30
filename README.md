@@ -3,7 +3,7 @@ This repository contains official pytorch implementation of Intra-Inter View Int
 ## Dataset
 We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286855), including EPFL, HCInew, HCIold, INRIA and STFgantry datasets for training and testing. Please download the dataset in the official repository of [LF-DFnet](https://github.com/YingqianWang/LF-DFnet).
 ## Code
-### Dependencies and Installation
+### Dependencies
 * Ubuntu 18.04
 * Python 3.6
 * Pyorch 1.3.1 + torchvision 0.4.2 + cuda 92
@@ -12,7 +12,7 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 * To generate the training data, please first download the five datasets and run:
   ```matlab
   GenerateTrainingData.m
-* To generate the training data, pease run:
+* To generate the training data, run:
   ```matlab
   GenerateTestData.m
 ### Train
@@ -24,7 +24,7 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
   ```python
   python test.py
 ### Visual Results
-* to merge the Y, Cb, Cr channels, please run:
+* To merge the Y, Cb, Cr channels, please run:
   ```matlab
   GenerateResultImages.m
 ## Citation
