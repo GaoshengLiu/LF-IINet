@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument("--angRes", type=int, default=5, help="angular resolution")
     parser.add_argument("--upscale_factor", type=int, default=4, help="upscale factor")
-    parser.add_argument('--testset_dir', type=str, default='I:/LF-DFnet-master/Data/TestData_4xSR_5x5/')
+    parser.add_argument('--testset_dir', type=str, default='../Data/TestData_4xSR_5x5/')
 
     parser.add_argument("--patchsize", type=int, default=64, help="LFs are cropped into patches to save GPU memory")
     parser.add_argument("--stride", type=int, default=32, help="The stride between two test patches is set to patchsize/2")
