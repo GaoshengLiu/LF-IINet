@@ -10,18 +10,22 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 * Matlab
 ### Prepare Training and Test Data
 * To generate the training data, please first download the five datasets and run:
-  'GenerateTrainingData.m'
+  ```matlab
+  GenerateTrainingData.m
 * To generate the training data, pease run:
-  'GenerateTestData.m'
+  ```matlab
+  GenerateTestData.m
 ### Train
 * Run:
   ```python
-  'python train.py' //python
+  python train.py
 ### Test
 * Run:
+  ```python
   'python test.py'
 ### Visual Results
 * to merge the Y, Cb, Cr channels, please run:
+  ```matlab
   'GenerateResultImages.m'
 ## Citiation
 If you find this work helpful, please consider citing the following papers:
@@ -40,7 +44,7 @@ If you find this work helpful, please consider citing the following papers:
   publisher={IEEE}\<br> 
 }'\<br> 
 ## Acknowledgement
-Our work and implementations are inspired by following projects:\<br> 
-[LF-DFnet](https://github.com/YingqianWang/LF-DFnet)\<br> 
-[LF-InterNet](https://github.com/YingqianWang/LF-InterNet)\<br> 
+Our work and implementations are inspired by following projects: 
+[LF-DFnet](https://github.com/YingqianWang/LF-DFnet)<br> 
+[LF-InterNet](https://github.com/YingqianWang/LF-InterNet)<br> 
 
